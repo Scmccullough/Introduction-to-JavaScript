@@ -18,8 +18,6 @@ Do the following:
    HINT: no function required
 */
 
-
-
 /*
 Task 1b - Values
 
@@ -74,10 +72,10 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(age){
+  return age*7;
 }
-
+dogYears(1);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
