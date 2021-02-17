@@ -105,9 +105,9 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-    /*add your code here*/
+function hungryDog(){
   }
+
 
 
 
@@ -162,7 +162,7 @@ Using the feet function below do the following:
   2. Convert the number of cm to feet
   3. Return number of feet
 */
-
+ 
 function feet(/*add your code here*/){
     /*add your code here*/
   }
