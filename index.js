@@ -105,8 +105,21 @@ Use the hungryDog function and feeding requirements below to do the following:
   NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(){
+function hungryDog(years, weight){
+  if(years >= 1, weight <= 5){
+    return(weight*.05)
   }
+  else if(years >= 1, weight <= 10){
+    return(weight*.04)
+  }
+  else if(years >= 1, weight <= 15){
+    return(weight*.03)
+  }
+  else if(years >= 1, weight > 15){
+    return(weight*.02)
+  }
+}
+console.log(hungryDog(1, 15));
 
 
 
@@ -149,11 +162,10 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(km){
+    return(km*0.621371)
   }
-
-
+console.log(miles(km));
 
 //Task 5b - Feet to CM
 /*
